@@ -1,0 +1,38 @@
+.area_container {
+	display: flex;
+	flex-wrap: wrap;
+
+	margin:  auto;
+	max-width: 500px;
+}
+
+.header, .result {
+  margin: auto;
+  font-size: 18px;
+  text-align: center;
+}
+
+.cell {
+	display:  flex;
+	justify-content: center;
+	align-items: center;
+
+	margin: 10px;
+	width: 100px;
+	height: 100px;
+
+	background-color: #2e28285c;
+}
+
+.img_goblin {
+	width:  100%;
+}
+
+.active {
+  background-image: url(2dbd01ce16c0fa83cb67.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/*# sourceMappingURL=main.css.map*/
